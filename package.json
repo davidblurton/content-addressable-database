@@ -1,0 +1,20 @@
+{
+  "name": "content-addressable-database",
+  "version": "1.0.0",
+  "description": "A content addressable database backed by leveldb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "David Blurton",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.10.1",
+    "level": "^0.18.0",
+    "q": "^1.0.1"
+  },
+  "devDependencies": {
+    "should": "^4.1.0"
+  }
+}
