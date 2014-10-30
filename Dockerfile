@@ -1,6 +1,6 @@
 FROM octohost/nodejs
 
-RUN apt-get update && apt-get -y install python2.7 python2.7-dev git wget make
+RUN apt-get update && apt-get -y install python2.7 python2.7-dev git wget make g++
 RUN ln -s /usr/bin/python2.7 /usr/bin/python
 
 WORKDIR /srv/www
