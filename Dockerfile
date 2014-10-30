@@ -1,6 +1,6 @@
 FROM octohost/nodejs
 
-WOKRDIR /srv/www
+WORKDIR /srv/www
 ADD . /srv/www
 RUN npm install
 
