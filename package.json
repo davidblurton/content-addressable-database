@@ -4,6 +4,7 @@
   "description": "A content addressable database backed by leveldb",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "mocha"
   },
   "author": "David Blurton",
