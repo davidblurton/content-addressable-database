@@ -1,4 +1,4 @@
-content-addressable-database
+hashdb
 ============================
 
 A content addressable database backed by leveldb
